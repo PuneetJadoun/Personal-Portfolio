@@ -1,0 +1,254 @@
+.purple{
+    color: rgb(170, 107, 228);
+}
+#element{
+    color: rgb(170, 107, 228);
+}
+
+
+@media (max-width: 576px) {
+    #nav-bar {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .nav-item ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .nav-item {
+        margin-top: 10px;
+    }
+
+    .firstsection {
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+        padding: 20px;
+    }
+
+    .firstsection > div {
+        width: 100%;
+    }
+
+    .leftsection {
+        font-size: 1.8rem;
+        margin-bottom: 20px;
+    }
+
+    .rightsection img {
+        width: 80%;
+    }
+
+    .cv button {
+        font-size: 20px;
+        height: 50px;
+        width: 120px;
+    }
+    #element{
+        font-size: 22px;
+    }
+
+    .heading {
+        font-size: 30px; /* Reduce heading size */
+        text-align: center; /* Ensure centering */
+    }
+
+    #me {
+        font-size: 35px; /* Adjust font size for readability */
+    }
+
+    .customhr {
+        width: 50%; /* Increase width for smaller screens */
+        height: 2px; /* Adjust thickness */
+    }
+
+    .About-section {
+        flex-direction: column; /* Stack sections vertically */
+        align-items: center; /* Center align sections */
+        text-align: center; /* Align text for better UX */
+        height: auto; /* Adjust height for content */
+        padding: 20px; /* Add padding for spacing */
+    }
+
+    .aboutleftsection, .aboutrightsection {
+        width: 90%; /* Reduce width to fit smaller screens */
+        margin-top: 20px; /* Add spacing between sections */
+        font-size: 1.2rem; /* Adjust font size */
+    }
+
+    .soon {
+        font-size: 18px; /* Smaller text size for fantasy font */
+    }
+
+    .profile-image {
+        height: 80px; /* Smaller profile image */
+        width: 80px;
+        border-radius: 50%; /* Circle image for a modern look */
+    }
+
+    .codingprofiles {
+        flex-direction: column; /* Stack coding profile items */
+        gap: 15px; /* Adjust spacing */
+        padding: 20px; /* Reduce padding */
+    }
+
+    .heading2 {
+        font-size: 1.2rem; /* Adjust heading size */
+        margin-top: 20px;
+    }
+
+    .customhrabout {
+        width: 70%; /* Adjust width for smaller screens */
+        height: 1px; /* Thinner line */
+    }
+
+    .aboutrightsection {
+        box-shadow: -1px -1px 1px rgb(170, 107, 228); /* Softer shadow */
+        margin-top: 20px; /* Add spacing from top */
+    }
+
+    .headingrightsec {
+        font-size: 1.5rem; /* Adjust size */
+        margin-top: 10px; /* Reduce top margin */
+    }
+
+    .rightheadingsec {
+        font-size: 1.5rem; /* Scale down font */
+    }
+
+
+    .projectsection{
+        height: 100vh;
+    }
+    .middlesection{
+        position: relative;
+        margin-top: 120px;
+        background-color: #b8b6b6;
+        height: 180px;
+        border: solid black 5px;
+    }
+    .projectsheading{
+        margin-top: 250px;
+        font-family: cursive;
+        font-size: 2.0rem;
+        text-align: center;
+        margin-top: 30px;
+        color: #fff;
+        margin-bottom: 30px;
+        margin-bottom: 200px;
+    }
+    #element2{
+        margin-left: 400px;
+        font-family:'Times New Roman', Times, serif;
+        font-size: 4.0rem;
+        overflow-x: hidden;
+    }
+    #element2 {
+        position: absolute; 
+        white-space: nowrap; /* Prevent text wrapping */
+        animation-name: animation2;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear; /* Smooth animation */
+    }
+    
+    
+    
+    .contactme {
+        height: auto; /* Allow dynamic height */
+        padding: 20px; /* Add padding for better spacing */
+    }
+
+    .contactdiv {
+        width: 90%; /* Adjust width to fit smaller screens */
+        margin: 20px auto; /* Center align */
+        height: auto; /* Allow height to adjust dynamically */
+        padding: 20px; /* Reduce padding */
+        gap: 20px; /* Reduce gap between items */
+        box-shadow: none; /* Simplify shadows */
+    }
+
+    #element3 {
+        font-size: 0.8rem; /* Reduce font size */
+        margin-left: 0; /* Center align */
+        text-align: center; /* Center text */
+    }
+
+    .contactdiv img {
+        height: 120px; /* Adjust image size */
+        width: 120px;
+        border-radius: 8px; /* Smaller border radius */
+    }
+
+    .skillssection {
+        width: 100%; /* Full width */
+        padding: 10px; /* Add padding for spacing */
+    }
+
+    .skill {
+        margin: 20px 0; /* Reduce margin */
+        font-size: 1rem; /* Adjust font size */
+    }
+
+    .skillname {
+        flex-direction: column; /* Stack skill name and percentage */
+        align-items: flex-start; /* Align text to the left */
+    }
+
+    .progressbar {
+        height: 8px; /* Reduce progress bar height */
+    }
+
+    .footer {
+        height: auto; /* Allow dynamic height */
+        padding: 10px; /* Reduce padding */
+        text-align: center; /* Center text */
+    }
+
+    .footertext {
+        margin-left: 0; /* Center align */
+        font-size: 16px; /* Adjust font size */
+    }
+
+    .footertext a {
+        font-size: 16px; /* Match text size */
+    }
+}
+
+
+
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+    #nav-bar {
+        padding: 20px; /* Adjust padding */
+    }
+
+    .nav-item ul {
+        gap: 20px; /* Adjust gap */
+    }
+
+    .leftsection {
+        font-size: 2rem; /* Adjust font size */
+    }
+
+    .rightsection img {
+        width: 70%; /* Adjust image size */
+    }
+
+    .cv button {
+        font-size: 1rem; /* Adjust button font size */
+        height: 40px; /* Adjust button height */
+        width: 140px; /* Adjust button width */
+    }
+}
+
+
+
+
+
+
+
